@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>杂谈</title>
-    <url>/2022/11/23/%E6%9D%82%E8%B0%88/</url>
-    <content><![CDATA[<p>今天第一天去工作，姑且算是个兼职，培训无聊的紧，想着github主题上的那些配置文件代码压根看不懂什么意思，搜索了一下，这是个网页设计领域，牵扯到javascirpt,想看懂呢，又需要HTML和scc,哦，还有jQuery，不太懂，但是想懂，就把这个博客当做笔记记录我的每一天。</p>
-]]></content>
-      <tags>
-        <tag>杂谈</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Test</title>
     <url>/2022/11/22/Test/</url>
     <content><![CDATA[<p>This is a test!<br>This is a test!<br>This is a test!</p>
 ]]></content>
       <tags>
         <tag>My first blog.</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>杂谈</title>
+    <url>/2022/11/23/%E6%9D%82%E8%B0%88/</url>
+    <content><![CDATA[<p>今天第一天去工作，姑且算是个兼职，培训无聊的紧，想着github主题上的那些配置文件代码压根看不懂什么意思，搜索了一下，这是个网页设计领域，牵扯到javascirpt,想看懂呢，又需要HTML和scc,哦，还有jQuery，不太懂，但是想懂，就把这个博客当做笔记记录我的每一天。</p>
+]]></content>
+      <tags>
+        <tag>杂谈</tag>
       </tags>
   </entry>
 </search>
