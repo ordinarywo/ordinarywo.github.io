@@ -19,15 +19,15 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.13.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="今天第一天去工作，姑且算是个兼职，培训无聊的紧，想着github主题上的那些配置文件代码压根看不懂什么意思，搜索了一下，这是个网页设计领域，牵扯到javascirpt,想看懂呢，又需要HTML和scc,哦，还有jQuery，不太懂，但是想懂，就把这个博客当做笔记记录我的每一天。">
+    <meta name="description" content="树的歌">
 <meta property="og:type" content="article">
 <meta property="og:title" content="杂谈">
 <meta property="og:url" content="http://example.com/2022/11/23/%E6%9D%82%E8%B0%88/index.html">
 <meta property="og:site_name" content="Ordinary life">
-<meta property="og:description" content="今天第一天去工作，姑且算是个兼职，培训无聊的紧，想着github主题上的那些配置文件代码压根看不懂什么意思，搜索了一下，这是个网页设计领域，牵扯到javascirpt,想看懂呢，又需要HTML和scc,哦，还有jQuery，不太懂，但是想懂，就把这个博客当做笔记记录我的每一天。">
+<meta property="og:description" content="树的歌">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-11-23T11:36:45.000Z">
-<meta property="article:modified_time" content="2022-11-23T12:07:07.397Z">
+<meta property="article:modified_time" content="2022-11-25T08:53:01.667Z">
 <meta property="article:author" content="Ordinary people">
 <meta property="article:tag" content="杂谈">
 <meta name="twitter:card" content="summary">
@@ -55,6 +55,8 @@
   <noscript>
     <link rel="stylesheet" href="/css/noscript.css">
   </noscript>
+  
+ 
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
@@ -65,6 +67,9 @@
       <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
   <div class="site-nav-toggle">
     <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
     </div>
   </div>
 
@@ -86,6 +91,10 @@
 
 
 
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li><li class="menu-item menu-item-schedule"><a href="/schedule/" rel="section"><i class="fa fa-calendar fa-fw"></i>日程表</a></li><li class="menu-item menu-item-sitemap"><a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>站点地图</a></li><li class="menu-item menu-item-commonweal"><a href="/404/" rel="section"><i class="fa fa-heartbeat fa-fw"></i>公益 404</a></li>
+  </ul>
+</nav>
 
 
 
@@ -114,7 +123,7 @@
         <div class="site-overview-wrap sidebar-panel">
           <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <img class="site-author-image" itemprop="image" alt="Ordinary people"
-      src="/images/avatar.jpg">
+      src="/images/avatar.png">
   <p class="site-author-name" itemprop="name">Ordinary people</p>
   <div class="site-description" itemprop="description">我们所经历的每个平凡的日常，也许就是连续发生的奇迹</div>
 </div>
@@ -127,8 +136,9 @@
         </a>
       </div>
       <div class="site-state-item site-state-tags">
+          <a href="/tags/">
         <span class="site-state-item-count">2</span>
-        <span class="site-state-item-name">标签</span>
+        <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
 </div>
@@ -142,7 +152,6 @@
 
 
     </div>
-    <a target="_blank" rel="noopener" href="https://github.com/ordinarywo" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 
     <div class="main-inner post posts-expand">
 
@@ -158,7 +167,7 @@
     <link itemprop="mainEntityOfPage" href="http://example.com/2022/11/23/%E6%9D%82%E8%B0%88/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="image" content="/images/avatar.png">
       <meta itemprop="name" content="Ordinary people">
     </span>
 
@@ -183,9 +192,15 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
-      
 
-      <time title="创建时间：2022-11-23 19:36:45 / 修改时间：20:07:07" itemprop="dateCreated datePublished" datetime="2022-11-23T19:36:45+08:00">2022-11-23</time>
+      <time title="创建时间：2022-11-23 19:36:45" itemprop="dateCreated datePublished" datetime="2022-11-23T19:36:45+08:00">2022-11-23</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2022-11-25 16:53:01" itemprop="dateModified" datetime="2022-11-25T16:53:01+08:00">2022-11-25</time>
     </span>
 
   
@@ -198,7 +213,9 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <p>今天第一天去工作，姑且算是个兼职，培训无聊的紧，想着github主题上的那些配置文件代码压根看不懂什么意思，搜索了一下，这是个网页设计领域，牵扯到javascirpt,想看懂呢，又需要HTML和scc,哦，还有jQuery，不太懂，但是想懂，就把这个博客当做笔记记录我的每一天。</p>
+        <p>  树的歌<br>  <span id="more"></span><br>有这样一棵树<br>稚嫩的树干 翠绿的枝丫<br>她摇晃着身子 缓缓抬起了头<br>她并没有父母 一棵树又怎么会有呢<br>她望着周围的参天大树和被遮蔽的阳光<br>心想 我什么时候也能长到这么高呢<br>那样我就可以看到外面的世界了<br>她向往的望着天空<br>就这样过了一年又一年<br>她曾在暴雨时被大风吹倒 为了那片天空 她心想<br>她曾在洪水中浸泡了几天几夜奄奄一息 为了天空 她心想<br>她曾被泥石流掩埋 为了天空…<br>渐渐地 她惊喜的发现 她已经快要到达那片蔚蓝了<br>再努力一点 就差一点 她心想<br>但是她已经不再生长了 岁月在她的身上留下了印记<br>她不再年轻了<br>她对自己的目标已经没有了信心<br>忽然她看到自己的脚下有着一棵树<br>一棵如她当初的树<br>她觉得自己的生活又有了新的目标<br>她高兴极了<br>她竭尽全力的保护着他<br>暴雨时为他挡雨 洪水时为他鼓励 泥石流时与他共进退<br>她觉得自己终于不再孤单了<br>但是有一次他却朝着她的外面长去 他不再向着笔直生长了<br>他不想再被束缚了<br>她生气了<br>但无论怎样都拉不回他那颗如她当年一般躁动的心<br>她伤心极了 树叶哗哗的响着<br>他终于回来了<br>她从他小时候起就告诉着他：<br>我们的宿命就是向着那片天空 直到到达那片向往<br>他很听话 尽着自己的全力生长着 生长着…<br>他长大了<br>她更老了<br>终于啊 他到达了天空<br>望着周围一望无际的森林 他兴奋极了<br>他低下头 向她诉说着天空之上的美好<br>她微笑着应和 心中满是骄傲<br>在某一年的冬天 他和她约定春天再见<br>春天到了<br>那树叶哗哗的响着<br>她仰着头 “我也曾有过天空啊…”<br>她随着冬天走了<br>她已经化作那泥土的一部分了<br>他已经老了<br>在他的脚下 冒出了一棵树苗<br>后来怎么样呢？<br>也许 泥土知道吧.</p>
+<pre><code>                                                        2019.8.15
+</code></pre>
 
     </div>
 
@@ -251,6 +268,8 @@
 
     </div>
   </footer>
+   <!--单击显示文字-->
+  <script type="text/javascript" src="/js/ClickShowText.js"></script>
 
   
   <div class="toggle sidebar-toggle" role="button">
@@ -270,6 +289,7 @@
 
 
   
+  <script size="300" alpha="0.6" zIndex="-1" src="https://cdnjs.cloudflare.com/ajax/libs/ribbon.js/1.0.2/ribbon.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
 <script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/schemes/muse.js"></script><script src="/js/next-boot.js"></script>
 
@@ -284,5 +304,10 @@
 
 
 
-</body>
+
+  <!--动态线条背景-->
+  <script type="text/javascript"
+  color="220,220,220" opacity='0.7' zIndex="-2" count="200" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
+  </script>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
 </html>
