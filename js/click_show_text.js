@@ -20,10 +20,10 @@ jQuery(document).ready(function($) {
             "top": y - 180,
             "opacity": 0
         },
-      3000,
-      function() {
-          $i.remove();
-      });
+            3000,
+            function() {
+                $i.remove();
+            });
     });
     setTimeout('delay()', 2000);
 });

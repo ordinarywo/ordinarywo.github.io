@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Ordinary life</title>
+  
+  <subtitle>轻云飚飞九霄外，百川一汇归沧海。</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2022-11-26T04:17:08.589Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Ordinary people</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>杂谈</title>
+    <link href="http://example.com/2022/11/23/%E6%9D%82%E8%B0%88/"/>
+    <id>http://example.com/2022/11/23/%E6%9D%82%E8%B0%88/</id>
+    <published>2022-11-23T11:36:45.000Z</published>
+    <updated>2022-11-26T04:17:08.589Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;  树的歌&lt;br&gt;</summary>
+    
+    
+    
+    <category term="日常" scheme="http://example.com/categories/%E6%97%A5%E5%B8%B8/"/>
+    
+    
+    <category term="杂谈" scheme="http://example.com/tags/%E6%9D%82%E8%B0%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Test</title>
+    <link href="http://example.com/2022/11/22/Test/"/>
+    <id>http://example.com/2022/11/22/Test/</id>
+    <published>2022-11-22T11:51:26.000Z</published>
+    <updated>2022-11-26T04:14:04.304Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;This is a test!&lt;br&gt;This is a test!&lt;br&gt;This is a</summary>
+        
+      
+    
+    
+    
+    <category term="日常" scheme="http://example.com/categories/%E6%97%A5%E5%B8%B8/"/>
+    
+    
+    <category term="My first blog." scheme="http://example.com/tags/My-first-blog/"/>
+    
+  </entry>
+  
+</feed>

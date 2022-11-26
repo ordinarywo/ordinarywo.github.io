@@ -5,6 +5,9 @@
     <url>/2022/11/22/Test/</url>
     <content><![CDATA[<p>This is a test!<br>This is a test!<br>This is a test!</p>
 ]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
       <tags>
         <tag>My first blog.</tag>
       </tags>
@@ -16,6 +19,9 @@
 <pre><code>                                                        2019.8.15
 </code></pre>
 ]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
       <tags>
         <tag>杂谈</tag>
       </tags>
