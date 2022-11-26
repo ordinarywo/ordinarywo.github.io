@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-11-26T04:17:08.589Z</updated>
+  <updated>2022-11-26T04:57:40.780Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,14 +17,33 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>杂谈-1</title>
+    <link href="http://example.com/2022/11/26/%E6%9D%82%E8%B0%88-1/"/>
+    <id>http://example.com/2022/11/26/%E6%9D%82%E8%B0%88-1/</id>
+    <published>2022-11-26T04:44:47.000Z</published>
+    <updated>2022-11-26T04:57:40.780Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;我终将死亡&lt;br&gt;在群星闪耀的夜晚&lt;br&gt;请将我埋葬&lt;br&gt;不要问我从何处来&lt;br&gt;来处遥隔千万里&lt;br&gt;不要问我往哪里去&lt;br&gt;前途无尽路茫茫&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="日常" scheme="http://example.com/categories/%E6%97%A5%E5%B8%B8/"/>
+    
+    
+    <category term="杂谈" scheme="http://example.com/tags/%E6%9D%82%E8%B0%88/"/>
+    
+  </entry>
+  
+  <entry>
     <title>杂谈</title>
     <link href="http://example.com/2022/11/23/%E6%9D%82%E8%B0%88/"/>
     <id>http://example.com/2022/11/23/%E6%9D%82%E8%B0%88/</id>
     <published>2022-11-23T11:36:45.000Z</published>
-    <updated>2022-11-26T04:17:08.589Z</updated>
+    <updated>2022-11-26T04:59:35.944Z</updated>
     
     
-    <summary type="html">&lt;p&gt;  树的歌&lt;br&gt;</summary>
+    <summary type="html">&lt;p&gt;  树的歌&lt;br&gt;有这样一棵树&lt;br&gt;稚嫩的树干 翠绿的枝丫&lt;br&gt;她摇晃着身子 缓缓抬起了头&lt;br&gt;她并没有父母 一棵树又怎么会有呢&lt;br&gt;她望着周围的参天大树和被遮蔽的阳光&lt;br&gt;心想 我什么时候也能长到这么高呢&lt;br&gt;那样我就可以看到外面的世界了&lt;br&gt;她向往的望着天空&lt;/p&gt;</summary>
     
     
     
