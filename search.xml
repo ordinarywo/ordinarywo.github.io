@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Test</title>
+    <url>/2022/11/22/Test/</url>
+    <content><![CDATA[<p>This is a test!<br>This is a test!<br>This is a test!</p>
+]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
+      <tags>
+        <tag>My first blog.</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>杂谈-1</title>
     <url>/2022/11/26/%E6%9D%82%E8%B0%88-1/</url>
     <content><![CDATA[<p>我终将死亡<br>在群星闪耀的夜晚<br>请将我埋葬<br>不要问我从何处来<br>来处遥隔千万里<br>不要问我往哪里去<br>前途无尽路茫茫</p>
@@ -14,18 +26,6 @@
       </categories>
       <tags>
         <tag>杂谈</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Test</title>
-    <url>/2022/11/22/Test/</url>
-    <content><![CDATA[<p>This is a test!<br>This is a test!<br>This is a test!</p>
-]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
-      <tags>
-        <tag>My first blog.</tag>
       </tags>
   </entry>
   <entry>
